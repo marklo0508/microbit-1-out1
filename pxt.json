@@ -1,0 +1,26 @@
+{
+    "name": "Microbit 1 內循環",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "GP2Y1051": "github:marklo0508/gp2y1051#04eb6bfa921f5c78d7c78f8663109ed05e069745"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.61",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
